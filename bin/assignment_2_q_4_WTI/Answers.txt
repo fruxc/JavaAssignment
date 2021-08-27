@@ -1,0 +1,9 @@
+Consider the four core interfaces, Set, List, Queue, and Map. For each of the following four assignments, specify which of the four core interfaces is best-suited, and explain how to use it to implement the assignment.
+1. Whimsical Toys Inc (WTI) needs to record the names of all its employees. Every  month, an employee will be chosen at random from these records to receive a free toy.
+Answer: We will use List since collections has functionality to choose random item from the list.
+2. WTI has decided that each new product will be named after an employee but only first names will be used, and each name will be used only once. Prepare a list of unique  first names.
+Answer: We will use Set because collections set has ability to take item only once.
+3. WTI decides that it only wants to use  the most popular names  for its toys. Count up the number of employees who have each first name.
+Answer: We will use Map so that we can store key value pair to calculate count for each employee.
+4. WTI acquires season tickets for the local lacrosse team, to be shared by employees. Create a waiting list for this popular sport.
+Answer: We will use Queue, so that we create a waiting list according to that we can use add() and remove() methods.
